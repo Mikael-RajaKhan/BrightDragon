@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to BrightDragon!</title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+<div class="wrapper indexPage">
+    <h1><?php echo $_GET['term']; ?></h1>
+
+        <div class="mainSection">
+            <div class="logoContainer">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidpOQkGX8L_9I604YqAGz928mqL9LE-Fn0EidOgDKJ4sydBdNec-OilNy_7DwUKDzIEdvGF8I1ieydAUhdnXTwDRRqT_QI4x-QdugKvHFJ62qwmRghbOqXGVY5fQzEbT2bchAhMMbLlqLW_-WYyIUUb2UhpsnNtFzBLC4mKhbMp4jUtA/s220/Custom%20dimensions%20512x512%20px.jpeg">
+            </div>
+
+            <div class="searchContainer">
+                <form action="search.php" method="get">
+                    <input class="searchBox" type="text" name="term" placeholder="Search it all">
+                    <input class="searchButton" type="submit" value="Search">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
